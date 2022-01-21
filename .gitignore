@@ -3,3 +3,4 @@ tests
 *.swp
 dist-dev
 dist/*.LICENSE.txt
+/.idea/

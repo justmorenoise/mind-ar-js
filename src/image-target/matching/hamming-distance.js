@@ -12,7 +12,7 @@ const compute = (options) => {
 }
 
 const bitCount = (v) => {
-  var c = v - ((v >> 1) & 0x55555555);
+  let c = v - ((v >> 1) & 0x55555555);
   c = ((c >> 2) & 0x33333333) + (c & 0x33333333);
   c = ((c >> 4) + c) & 0x0F0F0F0F;
   c = ((c >> 8) + c) & 0x00FF00FF;
